@@ -7,12 +7,4 @@
 #IncludeRegexTransform: 
 
 S:/decryptionTask/T2/main.cpp
-iostream
--
-cstdio
--
-ctime
--
-cmath
--
 

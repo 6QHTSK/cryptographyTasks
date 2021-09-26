@@ -89,10 +89,6 @@ typedef union {
 } keyStruct;
 
 inline void HexPrint(unsigned short num,char append){
-    //putchar(hexChar[num->partMap.p1]);
-    //putchar(hexChar[num->partMap.p2]);
-    //putchar(hexChar[num->partMap.p3]);
-    //putchar(hexChar[num->partMap.p4]);
     putchar(hexChar[num >> 12 & 0xf]);
     putchar(hexChar[num >> 8 & 0xf]);
     putchar(hexChar[num >> 4 & 0xf]);
@@ -206,7 +202,6 @@ int main() {
         //auto w = new bitStruct();
         auto key = HexRead<unsigned long long>();
         auto w = HexRead<unsigned short>();
-        //scanf("%x%x",&key->key,&w->z);
 
         // Encrypt
         SPNEncrypt(w,key);

@@ -1,3 +1,0 @@
-S:/decryptionTask/T1/cmake-build-debug/CMakeFiles/T1.dir
-S:/decryptionTask/T1/cmake-build-debug/CMakeFiles/edit_cache.dir
-S:/decryptionTask/T1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
